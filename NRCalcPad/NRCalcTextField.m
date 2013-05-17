@@ -24,7 +24,6 @@
 
 
 #import "NRCalcTextField.h"
-#import "CalculatorNumberFormatter.h"
 
 static CGFloat const kCalcButtonWidth = 80.0f;
 static CGFloat const kCalcButtonHeight = 40.0f;

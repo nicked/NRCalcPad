@@ -23,7 +23,7 @@
 //	THE SOFTWARE.
 
 
-@class CalculatorNumberFormatter;
+#import "CalculatorNumberFormatter.h"
 
 @interface NRCalcTextField : UITextField
 
