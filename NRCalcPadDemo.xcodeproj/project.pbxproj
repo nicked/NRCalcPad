@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		015C425C1745CA4500D9B831 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 015C425B1745CA4500D9B831 /* UIKit.framework */; };
+		015C425E1745CA4600D9B831 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 015C425D1745CA4600D9B831 /* Foundation.framework */; };
+		015C42601745CA4600D9B831 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 015C425F1745CA4600D9B831 /* CoreGraphics.framework */; };
+		015C42681745CA4600D9B831 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 015C42671745CA4600D9B831 /* main.m */; };
+		015C426C1745CA4600D9B831 /* NRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 015C426B1745CA4600D9B831 /* NRAppDelegate.m */; };
+		015C426E1745CA4600D9B831 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 015C426D1745CA4600D9B831 /* Default.png */; };
+		015C42701745CA4600D9B831 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 015C426F1745CA4600D9B831 /* Default@2x.png */; };
+		015C42721745CA4600D9B831 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 015C42711745CA4600D9B831 /* Default-568h@2x.png */; };
+		015C42751745CA4600D9B831 /* NRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 015C42741745CA4600D9B831 /* NRViewController.m */; };
+		01E0D3BC1745CF9E00C1FA1E /* button-off.png in Resources */ = {isa = PBXBuildFile; fileRef = 01E0D3B51745CF9E00C1FA1E /* button-off.png */; };
+		01E0D3BD1745CF9E00C1FA1E /* button-off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01E0D3B61745CF9E00C1FA1E /* button-off@2x.png */; };
+		01E0D3BE1745CF9E00C1FA1E /* button-on.png in Resources */ = {isa = PBXBuildFile; fileRef = 01E0D3B71745CF9E00C1FA1E /* button-on.png */; };
+		01E0D3BF1745CF9E00C1FA1E /* button-on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01E0D3B81745CF9E00C1FA1E /* button-on@2x.png */; };
+		01E0D3C01745CF9E00C1FA1E /* CalculatorNumberFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E0D3BA1745CF9E00C1FA1E /* CalculatorNumberFormatter.m */; };
+		01E0D3C31745D80000C1FA1E /* NRCalcTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E0D3C21745D75600C1FA1E /* NRCalcTextField.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		015C42581745CA4500D9B831 /* NRCalcPadDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NRCalcPadDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		015C425B1745CA4500D9B831 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		015C425D1745CA4600D9B831 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		015C425F1745CA4600D9B831 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		015C42631745CA4600D9B831 /* NRCalcPadDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NRCalcPadDemo-Info.plist"; sourceTree = "<group>"; };
+		015C42671745CA4600D9B831 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		015C42691745CA4600D9B831 /* NRCalcPadDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NRCalcPadDemo-Prefix.pch"; sourceTree = "<group>"; };
+		015C426A1745CA4600D9B831 /* NRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NRAppDelegate.h; sourceTree = "<group>"; };
+		015C426B1745CA4600D9B831 /* NRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NRAppDelegate.m; sourceTree = "<group>"; };
+		015C426D1745CA4600D9B831 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		015C426F1745CA4600D9B831 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		015C42711745CA4600D9B831 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		015C42731745CA4600D9B831 /* NRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NRViewController.h; sourceTree = "<group>"; };
+		015C42741745CA4600D9B831 /* NRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NRViewController.m; sourceTree = "<group>"; };
+		01E0D3B51745CF9E00C1FA1E /* button-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-off.png"; sourceTree = "<group>"; };
+		01E0D3B61745CF9E00C1FA1E /* button-off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-off@2x.png"; sourceTree = "<group>"; };
+		01E0D3B71745CF9E00C1FA1E /* button-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-on.png"; sourceTree = "<group>"; };
+		01E0D3B81745CF9E00C1FA1E /* button-on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-on@2x.png"; sourceTree = "<group>"; };
+		01E0D3B91745CF9E00C1FA1E /* CalculatorNumberFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorNumberFormatter.h; sourceTree = "<group>"; };
+		01E0D3BA1745CF9E00C1FA1E /* CalculatorNumberFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorNumberFormatter.m; sourceTree = "<group>"; };
+		01E0D3C11745D75600C1FA1E /* NRCalcTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NRCalcTextField.h; sourceTree = "<group>"; };
+		01E0D3C21745D75600C1FA1E /* NRCalcTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NRCalcTextField.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		015C42551745CA4500D9B831 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				015C425C1745CA4500D9B831 /* UIKit.framework in Frameworks */,
+				015C425E1745CA4600D9B831 /* Foundation.framework in Frameworks */,
+				015C42601745CA4600D9B831 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		015C424F1745CA4500D9B831 = {
+			isa = PBXGroup;
+			children = (
+				01E0D3B11745CF9E00C1FA1E /* NRCalcPad */,
+				015C42611745CA4600D9B831 /* NRCalcPadDemo */,
+				015C425A1745CA4500D9B831 /* Frameworks */,
+				015C42591745CA4500D9B831 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		015C42591745CA4500D9B831 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				015C42581745CA4500D9B831 /* NRCalcPadDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		015C425A1745CA4500D9B831 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				015C425B1745CA4500D9B831 /* UIKit.framework */,
+				015C425D1745CA4600D9B831 /* Foundation.framework */,
+				015C425F1745CA4600D9B831 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		015C42611745CA4600D9B831 /* NRCalcPadDemo */ = {
+			isa = PBXGroup;
+			children = (
+				015C426A1745CA4600D9B831 /* NRAppDelegate.h */,
+				015C426B1745CA4600D9B831 /* NRAppDelegate.m */,
+				015C42731745CA4600D9B831 /* NRViewController.h */,
+				015C42741745CA4600D9B831 /* NRViewController.m */,
+				015C42621745CA4600D9B831 /* Supporting Files */,
+			);
+			path = NRCalcPadDemo;
+			sourceTree = "<group>";
+		};
+		015C42621745CA4600D9B831 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				015C42631745CA4600D9B831 /* NRCalcPadDemo-Info.plist */,
+				015C42671745CA4600D9B831 /* main.m */,
+				015C42691745CA4600D9B831 /* NRCalcPadDemo-Prefix.pch */,
+				015C426D1745CA4600D9B831 /* Default.png */,
+				015C426F1745CA4600D9B831 /* Default@2x.png */,
+				015C42711745CA4600D9B831 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		01E0D3B11745CF9E00C1FA1E /* NRCalcPad */ = {
+			isa = PBXGroup;
+			children = (
+				01E0D3B41745CF9E00C1FA1E /* buttons */,
+				01E0D3B91745CF9E00C1FA1E /* CalculatorNumberFormatter.h */,
+				01E0D3BA1745CF9E00C1FA1E /* CalculatorNumberFormatter.m */,
+				01E0D3C11745D75600C1FA1E /* NRCalcTextField.h */,
+				01E0D3C21745D75600C1FA1E /* NRCalcTextField.m */,
+			);
+			path = NRCalcPad;
+			sourceTree = "<group>";
+		};
+		01E0D3B41745CF9E00C1FA1E /* buttons */ = {
+			isa = PBXGroup;
+			children = (
+				01E0D3B51745CF9E00C1FA1E /* button-off.png */,
+				01E0D3B61745CF9E00C1FA1E /* button-off@2x.png */,
+				01E0D3B71745CF9E00C1FA1E /* button-on.png */,
+				01E0D3B81745CF9E00C1FA1E /* button-on@2x.png */,
+			);
+			path = buttons;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		015C42571745CA4500D9B831 /* NRCalcPadDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 015C427B1745CA4600D9B831 /* Build configuration list for PBXNativeTarget "NRCalcPadDemo" */;
+			buildPhases = (
+				015C42541745CA4500D9B831 /* Sources */,
+				015C42551745CA4500D9B831 /* Frameworks */,
+				015C42561745CA4500D9B831 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NRCalcPadDemo;
+			productName = NRCalcPad;
+			productReference = 015C42581745CA4500D9B831 /* NRCalcPadDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		015C42501745CA4500D9B831 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NR;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Pinion Systems";
+			};
+			buildConfigurationList = 015C42531745CA4500D9B831 /* Build configuration list for PBXProject "NRCalcPadDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 015C424F1745CA4500D9B831;
+			productRefGroup = 015C42591745CA4500D9B831 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				015C42571745CA4500D9B831 /* NRCalcPadDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		015C42561745CA4500D9B831 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				015C426E1745CA4600D9B831 /* Default.png in Resources */,
+				015C42701745CA4600D9B831 /* Default@2x.png in Resources */,
+				015C42721745CA4600D9B831 /* Default-568h@2x.png in Resources */,
+				01E0D3BC1745CF9E00C1FA1E /* button-off.png in Resources */,
+				01E0D3BD1745CF9E00C1FA1E /* button-off@2x.png in Resources */,
+				01E0D3BE1745CF9E00C1FA1E /* button-on.png in Resources */,
+				01E0D3BF1745CF9E00C1FA1E /* button-on@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		015C42541745CA4500D9B831 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				015C42681745CA4600D9B831 /* main.m in Sources */,
+				015C426C1745CA4600D9B831 /* NRAppDelegate.m in Sources */,
+				015C42751745CA4600D9B831 /* NRViewController.m in Sources */,
+				01E0D3C01745CF9E00C1FA1E /* CalculatorNumberFormatter.m in Sources */,
+				01E0D3C31745D80000C1FA1E /* NRCalcTextField.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		015C42791745CA4600D9B831 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		015C427A1745CA4600D9B831 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		015C427C1745CA4600D9B831 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NRCalcPadDemo/NRCalcPadDemo-Prefix.pch";
+				INFOPLIST_FILE = "NRCalcPadDemo/NRCalcPadDemo-Info.plist";
+				PRODUCT_NAME = NRCalcPadDemo;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		015C427D1745CA4600D9B831 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NRCalcPadDemo/NRCalcPadDemo-Prefix.pch";
+				INFOPLIST_FILE = "NRCalcPadDemo/NRCalcPadDemo-Info.plist";
+				PRODUCT_NAME = NRCalcPadDemo;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		015C42531745CA4500D9B831 /* Build configuration list for PBXProject "NRCalcPadDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015C42791745CA4600D9B831 /* Debug */,
+				015C427A1745CA4600D9B831 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		015C427B1745CA4600D9B831 /* Build configuration list for PBXNativeTarget "NRCalcPadDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015C427C1745CA4600D9B831 /* Debug */,
+				015C427D1745CA4600D9B831 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 015C42501745CA4500D9B831 /* Project object */;
+}
