@@ -21,6 +21,6 @@ A minimum of iOS 5.0 and ARC is required.
 
 Licence
 -------
-NRCalcPad is (c) 2013 Pinion Systems, and is released under the MIT licence. See LICENCE.
+NRCalcPad is (c) 2013 [Pinion Systems](http://pinionsystems.com/), and is released under the MIT licence. See LICENCE.
 
 Attribution is appreciated but not required.
